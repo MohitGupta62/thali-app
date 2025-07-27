@@ -485,8 +485,11 @@ const Table = () => {
                 <td className="p-3 underline cursor-pointer whitespace-nowrap">
                   {meeting.title}
                 </td>
-                <td className="p-3 whitespace-nowrap">{meeting.date}</td>
-                <td className="p-3 whitespace-nowrap">
+                <td className="p-3 whitespace-nowrap ">{meeting.date}</td>
+                <td
+                  className="p-3 whitespace-nowrap"
+                  style={{ paddingRight: "33px" }}
+                >
                   {meeting.participants}
                 </td>
                 <td
